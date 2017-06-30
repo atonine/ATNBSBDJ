@@ -1,0 +1,26 @@
+//
+//  ATNHeader.pch
+//  ATNBSBDJ
+//
+//  Created by 于洪志 on 2017/6/30.
+//  Copyright © 2017年 于洪志. All rights reserved.
+//
+
+#ifndef ATNHeader_pch
+#define ATNHeader_pch
+
+
+#import "UIView+ATNExtension.h"
+#import "UIBarButtonItem+ATNExtension.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef DEBUG
+#define ATNLog(...) NSLog(__VA_ARGS__)
+#else
+#define ATNLog(...) 
+#endif
+
+#define ATNLogFunc ATNLog(@"%s",__func__)
+
+
+#endif /* ATNHeader_pch */
