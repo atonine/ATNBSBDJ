@@ -7,6 +7,8 @@
 //
 
 #import "ATNTabBarController.h"
+#import "ATNTabBar.h"
+
 
 @interface ATNTabBarController ()
 
@@ -16,6 +18,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [UINavigationBar appearance];
+    NSMutableDictionary*normalAttr = [NSMutableDictionary dictionary];
+    normalAttr[NSFontAttributeName]=[UIFont systemFontOfSize:12];
+    normalAttr[NSForegroundColorAttributeName] = [UIColor grayColor];
+    
+    NSMutableDictionary*selectedAttr = [NSMutableDictionary dictionary];
+    normalAttr[NSFontAttributeName]=[UIFont systemFontOfSize:12];
+    normalAttr[NSForegroundColorAttributeName] = [UIColor darkGrayColor];
+    
+    
+    UIBarItem*item = [UITabBarItem appearance];
+    [item setTitleTextAttributes:normalAttr forState:UIControlStateNormal];
+    [item setTitleTextAttributes:selectedAttr forState:UIControlStateSelected];
+    
+    [self setupVC:[[UIViewController alloc]init] normalImageName:@"tabBar_essence_icon" selectedImage:@"tabBar_essence_click_icon" titleName:@"详情"];
+    [self setupVC:[[UIViewController alloc]init] normalImageName:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon" titleName:@"关注"];
+    [self setupVC:[[UIViewController alloc]init] normalImageName:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon" titleName:@"关注"];
+    [self setupVC:[[UIViewController alloc]init] normalImageName:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon" titleName:@"我的"];
+    
+    [self setValue:[[ATNTabBar alloc]init] forKeyPath:@"tabBar"];
     // Do any additional setup after loading the view.
     
 }
@@ -25,7 +47,14 @@
     
     // Dispose of any resources that can be recreated.
 }
+-(void)setupVC:(UIViewController*)vc normalImageName:(NSString*)normalImageName selectedImage:(NSString*)selectImageName titleName:(NSString*)title{
+    vc.tabBarItem.title = title;
+    vc.tabBarItem.image = [UIImage imageNamed:normalImageName];
+    vc.tabBarItem.selectedImage = [UIImage imageNamed:selectImageName];
+    vc.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(100)/100.0 green:arc4random_uniform(100)/100.0 blue:arc4random_uniform(100)/100.0 alpha:1.0];
+    [self addChildViewController:vc];
 
+}
 /*
 #pragma mark - Navigation
 

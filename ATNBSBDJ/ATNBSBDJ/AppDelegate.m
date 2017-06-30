@@ -22,7 +22,7 @@
     self.window = [[UIWindow alloc]init];
     self.window.frame = [UIScreen mainScreen].bounds;
     self.window.rootViewController = [[ATNTabBarController alloc]init];
-    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

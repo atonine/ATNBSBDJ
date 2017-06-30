@@ -15,6 +15,7 @@
 		2BF6DEC61F04ED8900458895 /* ATNBSBDJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF6DEC51F04ED8900458895 /* ATNBSBDJTests.m */; };
 		2BF6DED11F04ED8900458895 /* ATNBSBDJUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF6DED01F04ED8900458895 /* ATNBSBDJUITests.m */; };
 		2BF6DEE01F0538D300458895 /* ATNTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF6DEDF1F0538D300458895 /* ATNTabBarController.m */; };
+		2BF6DEE31F054AB000458895 /* ATNTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF6DEE21F054AB000458895 /* ATNTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		2BF6DED21F04ED8900458895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BF6DEDE1F0538D300458895 /* ATNTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNTabBarController.h; sourceTree = "<group>"; };
 		2BF6DEDF1F0538D300458895 /* ATNTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNTabBarController.m; sourceTree = "<group>"; };
+		2BF6DEE11F054AB000458895 /* ATNTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNTabBar.h; sourceTree = "<group>"; };
+		2BF6DEE21F054AB000458895 /* ATNTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				2BF6DEAB1F04ED8900458895 /* Supporting Files */,
 				2BF6DEDE1F0538D300458895 /* ATNTabBarController.h */,
 				2BF6DEDF1F0538D300458895 /* ATNTabBarController.m */,
+				2BF6DEE11F054AB000458895 /* ATNTabBar.h */,
+				2BF6DEE21F054AB000458895 /* ATNTabBar.m */,
 			);
 			path = ATNBSBDJ;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 				2BF6DEB01F04ED8900458895 /* AppDelegate.m in Sources */,
 				2BF6DEAD1F04ED8900458895 /* main.m in Sources */,
 				2BF6DEE01F0538D300458895 /* ATNTabBarController.m in Sources */,
+				2BF6DEE31F054AB000458895 /* ATNTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
