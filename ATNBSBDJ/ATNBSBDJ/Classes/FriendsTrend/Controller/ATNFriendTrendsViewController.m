@@ -7,6 +7,9 @@
 //
 
 #import "ATNFriendTrendsViewController.h"
+#import "ATNRecommendController.h"
+
+
 
 @interface ATNFriendTrendsViewController ()
 
@@ -24,6 +27,8 @@
 }
 -(void)frendsClick{
     ATNLogFunc;
+    ATNRecommendController*rvc = [[ATNRecommendController alloc]init];
+    [self.navigationController pushViewController:rvc animated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

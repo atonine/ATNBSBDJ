@@ -22,6 +22,8 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    NSInteger r=0,b=0,g=0;
+    [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0];
     // Dispose of any resources that can be recreated.
 }
 

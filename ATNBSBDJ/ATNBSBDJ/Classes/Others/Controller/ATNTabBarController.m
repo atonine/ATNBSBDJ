@@ -12,7 +12,7 @@
 #import "ATNNewViewController.h"
 #import "ATNFriendTrendsViewController.h"
 #import "ATNMeViewController.h"
-
+#import "ATNNavigationController.h"
 
 @interface ATNTabBarController ()
 
@@ -56,7 +56,7 @@
     vc.tabBarItem.image = [UIImage imageNamed:normalImageName];
     vc.tabBarItem.selectedImage = [UIImage imageNamed:selectImageName];
   //  vc.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(100)/100.0 green:arc4random_uniform(100)/100.0 blue:arc4random_uniform(100)/100.0 alpha:1.0];
-    UINavigationController*nvc = [[UINavigationController alloc]init];
+    ATNNavigationController*nvc = [[ATNNavigationController alloc]init];
     [nvc addChildViewController:vc];
     [self addChildViewController:nvc];
 

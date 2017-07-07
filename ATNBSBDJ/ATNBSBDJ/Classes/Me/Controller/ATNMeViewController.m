@@ -20,6 +20,7 @@
     self.navigationItem.title = @"我的";
     UIBarButtonItem*settingItem = [UIBarButtonItem itemWithImageName:@"mine-setting-icon" highlightImageName:@"mine-setting-icon-click" target:self action:@selector(meSettingClick)];
     UIBarButtonItem*moonItem = [UIBarButtonItem itemWithImageName:@"mine-moon-icon" highlightImageName:@"mine-moon-icon-click" target:self action:@selector(meMoonClick)];
+    
     self.navigationItem.rightBarButtonItems = @[settingItem,moonItem];
     // Do any additional setup after loading the view.
 }

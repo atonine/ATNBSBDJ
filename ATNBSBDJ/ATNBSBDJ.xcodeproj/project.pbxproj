@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0687431F0D3A7F00EC19B9 /* ATNTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0687421F0D3A7F00EC19B9 /* ATNTagsViewController.m */; };
+		2B0687461F0D3AAC00EC19B9 /* ATNRecommendTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0687451F0D3AAC00EC19B9 /* ATNRecommendTag.m */; };
+		2B06874A1F0D3AD600EC19B9 /* ATNRecommendTagsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0687481F0D3AD600EC19B9 /* ATNRecommendTagsCell.m */; };
+		2B06874B1F0D3AD600EC19B9 /* ATNRecommendTagsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0687491F0D3AD600EC19B9 /* ATNRecommendTagsCell.xib */; };
+		2B6DE0C11F08E2B700EB9E9D /* ATNRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6DE0BF1F08E2B700EB9E9D /* ATNRecommendUserCell.m */; };
+		2B6DE0C21F08E2B700EB9E9D /* ATNRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B6DE0C01F08E2B700EB9E9D /* ATNRecommendUserCell.xib */; };
+		2B6DE0C51F08E72F00EB9E9D /* ATNRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6DE0C41F08E72F00EB9E9D /* ATNRecommendUser.m */; };
+		2B8072541F07393600B3F96D /* ATNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8072531F07393600B3F96D /* ATNNavigationController.m */; };
+		2B8072571F0741A000B3F96D /* ATNTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8072561F0741A000B3F96D /* ATNTestViewController.m */; };
+		2BE2F7271F0780CF00DF4FDB /* ATNFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BE2F7261F0780CF00DF4FDB /* ATNFriendTrendsViewController.xib */; };
+		2BE2F72B1F07852200DF4FDB /* ATNRecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE2F7291F07852200DF4FDB /* ATNRecommendController.m */; };
+		2BE2F72C1F07852200DF4FDB /* ATNRecommendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BE2F72A1F07852200DF4FDB /* ATNRecommendController.xib */; };
+		2BE2F7931F07CEF900DF4FDB /* ATNCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE2F7921F07CEF900DF4FDB /* ATNCategory.m */; };
+		2BE2F7D61F07D2D500DF4FDB /* ATNCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE2F7D41F07D2D500DF4FDB /* ATNCategoryCell.m */; };
+		2BE2F7D71F07D2D500DF4FDB /* ATNCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BE2F7D51F07D2D500DF4FDB /* ATNCategoryCell.xib */; };
 		2BF6DEAD1F04ED8900458895 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF6DEAC1F04ED8900458895 /* main.m */; };
 		2BF6DEB81F04ED8900458895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6DEB71F04ED8900458895 /* Assets.xcassets */; };
 		2BF6DEBB1F04ED8900458895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6DEB91F04ED8900458895 /* LaunchScreen.storyboard */; };
@@ -22,6 +37,7 @@
 		2BFFFA2D1F06807F001D95E2 /* UIView+ATNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFFA271F06807F001D95E2 /* UIView+ATNExtension.m */; };
 		2BFFFA2E1F06807F001D95E2 /* ATNTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFFA2B1F06807F001D95E2 /* ATNTabBar.m */; };
 		2BFFFA341F06910B001D95E2 /* UIBarButtonItem+ATNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFFA331F06910B001D95E2 /* UIBarButtonItem+ATNExtension.m */; };
+		70AEF76FE4826FABEB3F1826 /* libPods-ATNBSBDJ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E39E6CBBF8EA40ECDDC5CB /* libPods-ATNBSBDJ.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +58,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B0687411F0D3A7F00EC19B9 /* ATNTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNTagsViewController.h; sourceTree = "<group>"; };
+		2B0687421F0D3A7F00EC19B9 /* ATNTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNTagsViewController.m; sourceTree = "<group>"; };
+		2B0687441F0D3AAC00EC19B9 /* ATNRecommendTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNRecommendTag.h; sourceTree = "<group>"; };
+		2B0687451F0D3AAC00EC19B9 /* ATNRecommendTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNRecommendTag.m; sourceTree = "<group>"; };
+		2B0687471F0D3AD600EC19B9 /* ATNRecommendTagsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNRecommendTagsCell.h; sourceTree = "<group>"; };
+		2B0687481F0D3AD600EC19B9 /* ATNRecommendTagsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNRecommendTagsCell.m; sourceTree = "<group>"; };
+		2B0687491F0D3AD600EC19B9 /* ATNRecommendTagsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATNRecommendTagsCell.xib; sourceTree = "<group>"; };
+		2B6DE0BE1F08E2B700EB9E9D /* ATNRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNRecommendUserCell.h; sourceTree = "<group>"; };
+		2B6DE0BF1F08E2B700EB9E9D /* ATNRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNRecommendUserCell.m; sourceTree = "<group>"; };
+		2B6DE0C01F08E2B700EB9E9D /* ATNRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATNRecommendUserCell.xib; sourceTree = "<group>"; };
+		2B6DE0C31F08E72F00EB9E9D /* ATNRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNRecommendUser.h; sourceTree = "<group>"; };
+		2B6DE0C41F08E72F00EB9E9D /* ATNRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNRecommendUser.m; sourceTree = "<group>"; };
+		2B8072521F07393600B3F96D /* ATNNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNNavigationController.h; sourceTree = "<group>"; };
+		2B8072531F07393600B3F96D /* ATNNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNNavigationController.m; sourceTree = "<group>"; };
+		2B8072551F0741A000B3F96D /* ATNTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNTestViewController.h; sourceTree = "<group>"; };
+		2B8072561F0741A000B3F96D /* ATNTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNTestViewController.m; sourceTree = "<group>"; };
+		2BE2F7261F0780CF00DF4FDB /* ATNFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATNFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		2BE2F7281F07852200DF4FDB /* ATNRecommendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNRecommendController.h; sourceTree = "<group>"; };
+		2BE2F7291F07852200DF4FDB /* ATNRecommendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNRecommendController.m; sourceTree = "<group>"; };
+		2BE2F72A1F07852200DF4FDB /* ATNRecommendController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATNRecommendController.xib; sourceTree = "<group>"; };
+		2BE2F7911F07CEF900DF4FDB /* ATNCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNCategory.h; sourceTree = "<group>"; };
+		2BE2F7921F07CEF900DF4FDB /* ATNCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNCategory.m; sourceTree = "<group>"; };
+		2BE2F7D31F07D2D500DF4FDB /* ATNCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNCategoryCell.h; sourceTree = "<group>"; };
+		2BE2F7D41F07D2D500DF4FDB /* ATNCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNCategoryCell.m; sourceTree = "<group>"; };
+		2BE2F7D51F07D2D500DF4FDB /* ATNCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATNCategoryCell.xib; sourceTree = "<group>"; };
 		2BF6DEA81F04ED8900458895 /* ATNBSBDJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATNBSBDJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF6DEAC1F04ED8900458895 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2BF6DEB71F04ED8900458895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,6 +116,9 @@
 		2BFFFA2B1F06807F001D95E2 /* ATNTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNTabBar.m; sourceTree = "<group>"; };
 		2BFFFA321F06910B001D95E2 /* UIBarButtonItem+ATNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ATNExtension.h"; sourceTree = "<group>"; };
 		2BFFFA331F06910B001D95E2 /* UIBarButtonItem+ATNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ATNExtension.m"; sourceTree = "<group>"; };
+		77E39E6CBBF8EA40ECDDC5CB /* libPods-ATNBSBDJ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATNBSBDJ.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20BD540741649CF09B1D9F9 /* Pods-ATNBSBDJ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATNBSBDJ.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATNBSBDJ/Pods-ATNBSBDJ.release.xcconfig"; sourceTree = "<group>"; };
+		FD5C643B59B00978E7AF4B6C /* Pods-ATNBSBDJ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATNBSBDJ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATNBSBDJ/Pods-ATNBSBDJ.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70AEF76FE4826FABEB3F1826 /* libPods-ATNBSBDJ.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +147,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BE2F72D1F0785E200DF4FDB /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libraries;
+			sourceTree = SOURCE_ROOT;
+		};
 		2BF6DE9F1F04ED8900458895 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +161,8 @@
 				2BF6DEC41F04ED8900458895 /* ATNBSBDJTests */,
 				2BF6DECF1F04ED8900458895 /* ATNBSBDJUITests */,
 				2BF6DEA91F04ED8900458895 /* Products */,
+				941505C3F950AAD177C51B1C /* Pods */,
+				FA955C23617B697349EC74C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				2BFFF9EE1F067F8B001D95E2 /* Classes */,
+				2BE2F72D1F0785E200DF4FDB /* Libraries */,
 				2BF6DEB71F04ED8900458895 /* Assets.xcassets */,
 				2BF6DEB91F04ED8900458895 /* LaunchScreen.storyboard */,
 				2BF6DEBC1F04ED8900458895 /* Info.plist */,
@@ -191,6 +246,8 @@
 			children = (
 				2BFFF9F31F067F8B001D95E2 /* ATNEssenceViewController.h */,
 				2BFFF9F41F067F8B001D95E2 /* ATNEssenceViewController.m */,
+				2B0687411F0D3A7F00EC19B9 /* ATNTagsViewController.h */,
+				2B0687421F0D3A7F00EC19B9 /* ATNTagsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -198,6 +255,8 @@
 		2BFFF9F51F067F8B001D95E2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2B0687441F0D3AAC00EC19B9 /* ATNRecommendTag.h */,
+				2B0687451F0D3AAC00EC19B9 /* ATNRecommendTag.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -205,6 +264,9 @@
 		2BFFF9F61F067F8B001D95E2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2B0687471F0D3AD600EC19B9 /* ATNRecommendTagsCell.h */,
+				2B0687481F0D3AD600EC19B9 /* ATNRecommendTagsCell.m */,
+				2B0687491F0D3AD600EC19B9 /* ATNRecommendTagsCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -224,6 +286,10 @@
 			children = (
 				2BFFF9F91F067F8B001D95E2 /* ATNFriendTrendsViewController.h */,
 				2BFFF9FA1F067F8B001D95E2 /* ATNFriendTrendsViewController.m */,
+				2BE2F7261F0780CF00DF4FDB /* ATNFriendTrendsViewController.xib */,
+				2BE2F7281F07852200DF4FDB /* ATNRecommendController.h */,
+				2BE2F7291F07852200DF4FDB /* ATNRecommendController.m */,
+				2BE2F72A1F07852200DF4FDB /* ATNRecommendController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -231,6 +297,10 @@
 		2BFFF9FB1F067F8B001D95E2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2BE2F7911F07CEF900DF4FDB /* ATNCategory.h */,
+				2BE2F7921F07CEF900DF4FDB /* ATNCategory.m */,
+				2B6DE0C31F08E72F00EB9E9D /* ATNRecommendUser.h */,
+				2B6DE0C41F08E72F00EB9E9D /* ATNRecommendUser.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -238,6 +308,12 @@
 		2BFFF9FC1F067F8B001D95E2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2BE2F7D31F07D2D500DF4FDB /* ATNCategoryCell.h */,
+				2BE2F7D41F07D2D500DF4FDB /* ATNCategoryCell.m */,
+				2BE2F7D51F07D2D500DF4FDB /* ATNCategoryCell.xib */,
+				2B6DE0BE1F08E2B700EB9E9D /* ATNRecommendUserCell.h */,
+				2B6DE0BF1F08E2B700EB9E9D /* ATNRecommendUserCell.m */,
+				2B6DE0C01F08E2B700EB9E9D /* ATNRecommendUserCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -326,6 +402,10 @@
 			children = (
 				2BFFFA231F06807F001D95E2 /* ATNTabBarController.h */,
 				2BFFFA241F06807F001D95E2 /* ATNTabBarController.m */,
+				2B8072521F07393600B3F96D /* ATNNavigationController.h */,
+				2B8072531F07393600B3F96D /* ATNNavigationController.m */,
+				2B8072551F0741A000B3F96D /* ATNTestViewController.h */,
+				2B8072561F0741A000B3F96D /* ATNTestViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -357,6 +437,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		941505C3F950AAD177C51B1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD5C643B59B00978E7AF4B6C /* Pods-ATNBSBDJ.debug.xcconfig */,
+				C20BD540741649CF09B1D9F9 /* Pods-ATNBSBDJ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA955C23617B697349EC74C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77E39E6CBBF8EA40ECDDC5CB /* libPods-ATNBSBDJ.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -364,9 +461,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BF6DED51F04ED8900458895 /* Build configuration list for PBXNativeTarget "ATNBSBDJ" */;
 			buildPhases = (
+				B53C79273296EBAF48C4FA82 /* [CP] Check Pods Manifest.lock */,
 				2BF6DEA41F04ED8900458895 /* Sources */,
 				2BF6DEA51F04ED8900458895 /* Frameworks */,
 				2BF6DEA61F04ED8900458895 /* Resources */,
+				009D1F666C047B9790B07C5B /* [CP] Embed Pods Frameworks */,
+				723D6621F613A008B3C1EC07 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -467,8 +567,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B06874B1F0D3AD600EC19B9 /* ATNRecommendTagsCell.xib in Resources */,
+				2BE2F72C1F07852200DF4FDB /* ATNRecommendController.xib in Resources */,
+				2B6DE0C21F08E2B700EB9E9D /* ATNRecommendUserCell.xib in Resources */,
 				2BF6DEBB1F04ED8900458895 /* LaunchScreen.storyboard in Resources */,
 				2BF6DEB81F04ED8900458895 /* Assets.xcassets in Resources */,
+				2BE2F7D71F07D2D500DF4FDB /* ATNCategoryCell.xib in Resources */,
+				2BE2F7271F0780CF00DF4FDB /* ATNFriendTrendsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,20 +593,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		009D1F666C047B9790B07C5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATNBSBDJ/Pods-ATNBSBDJ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		723D6621F613A008B3C1EC07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATNBSBDJ/Pods-ATNBSBDJ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B53C79273296EBAF48C4FA82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2BF6DEA41F04ED8900458895 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2BFFFA171F067F8B001D95E2 /* AppDelegate.m in Sources */,
+				2B6DE0C11F08E2B700EB9E9D /* ATNRecommendUserCell.m in Sources */,
 				2BFFFA181F067F8B001D95E2 /* ATNEssenceViewController.m in Sources */,
+				2B6DE0C51F08E72F00EB9E9D /* ATNRecommendUser.m in Sources */,
+				2BE2F72B1F07852200DF4FDB /* ATNRecommendController.m in Sources */,
+				2B0687461F0D3AAC00EC19B9 /* ATNRecommendTag.m in Sources */,
 				2BFFFA341F06910B001D95E2 /* UIBarButtonItem+ATNExtension.m in Sources */,
+				2B8072541F07393600B3F96D /* ATNNavigationController.m in Sources */,
+				2BE2F7931F07CEF900DF4FDB /* ATNCategory.m in Sources */,
 				2BFFFA1B1F067F8B001D95E2 /* ATNMeViewController.m in Sources */,
 				2BFFFA2D1F06807F001D95E2 /* UIView+ATNExtension.m in Sources */,
+				2B0687431F0D3A7F00EC19B9 /* ATNTagsViewController.m in Sources */,
 				2BFFFA191F067F8B001D95E2 /* ATNFriendTrendsViewController.m in Sources */,
 				2BFFFA2E1F06807F001D95E2 /* ATNTabBar.m in Sources */,
+				2B06874A1F0D3AD600EC19B9 /* ATNRecommendTagsCell.m in Sources */,
 				2BF6DEAD1F04ED8900458895 /* main.m in Sources */,
+				2B8072571F0741A000B3F96D /* ATNTestViewController.m in Sources */,
 				2BFFFA201F067F8B001D95E2 /* ViewController.m in Sources */,
+				2BE2F7D61F07D2D500DF4FDB /* ATNCategoryCell.m in Sources */,
 				2BFFFA1C1F067F8B001D95E2 /* ATNNewViewController.m in Sources */,
 				2BFFFA2C1F06807F001D95E2 /* ATNTabBarController.m in Sources */,
 			);
@@ -644,6 +807,7 @@
 		};
 		2BF6DED61F04ED8900458895 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD5C643B59B00978E7AF4B6C /* Pods-ATNBSBDJ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -659,6 +823,7 @@
 		};
 		2BF6DED71F04ED8900458895 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C20BD540741649CF09B1D9F9 /* Pods-ATNBSBDJ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

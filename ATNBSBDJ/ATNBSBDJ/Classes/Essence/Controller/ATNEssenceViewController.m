@@ -7,7 +7,8 @@
 //
 
 #import "ATNEssenceViewController.h"
-
+#import "ATNTestViewController.h"
+#import "ATNTagsViewController.h"
 @interface ATNEssenceViewController ()
 
 @end
@@ -22,7 +23,7 @@
     // Do any additional setup after loading the view.
 }
 -(void)essClick{
-    ATNLogFunc;
+    [self.navigationController pushViewController:[[ATNTagsViewController alloc]init] animated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
