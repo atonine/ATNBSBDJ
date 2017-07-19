@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ATNTabBarController.h"
-
+#import "ATNPublishGuide.h"
 
 @interface AppDelegate ()
 
@@ -23,6 +23,7 @@
     self.window.frame = [UIScreen mainScreen].bounds;
     self.window.rootViewController = [[ATNTabBarController alloc]init];
     [self.window makeKeyAndVisible];
+    [ATNPublishGuide show];
     return YES;
 }
 

@@ -39,6 +39,9 @@
                     <state key="highlighted" backgroundImage="friendsTrend_login_click">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="loginOrRegister" destination="-1" eventType="touchUpInside" id="fcP-Zb-TSC"/>
+                    </connections>
                 </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header_cry_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Jje-0s-BeV">
                     <rect key="frame" x="163" y="221" width="48" height="48"/>
@@ -54,7 +57,7 @@
                 <constraint firstItem="5at-t5-pNo" firstAttribute="centerX" secondItem="bl1-5x-upa" secondAttribute="centerX" id="iFL-hh-XKK"/>
                 <constraint firstItem="Jje-0s-BeV" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="xep-Fz-GOs"/>
             </constraints>
-            <point key="canvasLocation" x="-151" y="7"/>
+            <point key="canvasLocation" x="-2" y="34"/>
         </view>
     </objects>
     <resources>

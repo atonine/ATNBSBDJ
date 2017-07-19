@@ -16,12 +16,18 @@
 		2B6DE0C51F08E72F00EB9E9D /* ATNRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6DE0C41F08E72F00EB9E9D /* ATNRecommendUser.m */; };
 		2B8072541F07393600B3F96D /* ATNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8072531F07393600B3F96D /* ATNNavigationController.m */; };
 		2B8072571F0741A000B3F96D /* ATNTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8072561F0741A000B3F96D /* ATNTestViewController.m */; };
+		2B9E72351F1B374F00C27EEF /* ATNVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9E72341F1B374F00C27EEF /* ATNVerticalButton.m */; };
+		2B9E72381F1BB13B00C27EEF /* ATNTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9E72371F1BB13B00C27EEF /* ATNTextField.m */; };
+		2B9E723B1F1BBD3200C27EEF /* ATNPublishGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9E723A1F1BBD3200C27EEF /* ATNPublishGuide.m */; };
+		2B9E723D1F1BBD4D00C27EEF /* ATNPublishGuide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B9E723C1F1BBD4D00C27EEF /* ATNPublishGuide.xib */; };
 		2BE2F7271F0780CF00DF4FDB /* ATNFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BE2F7261F0780CF00DF4FDB /* ATNFriendTrendsViewController.xib */; };
 		2BE2F72B1F07852200DF4FDB /* ATNRecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE2F7291F07852200DF4FDB /* ATNRecommendController.m */; };
 		2BE2F72C1F07852200DF4FDB /* ATNRecommendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BE2F72A1F07852200DF4FDB /* ATNRecommendController.xib */; };
 		2BE2F7931F07CEF900DF4FDB /* ATNCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE2F7921F07CEF900DF4FDB /* ATNCategory.m */; };
 		2BE2F7D61F07D2D500DF4FDB /* ATNCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE2F7D41F07D2D500DF4FDB /* ATNCategoryCell.m */; };
 		2BE2F7D71F07D2D500DF4FDB /* ATNCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BE2F7D51F07D2D500DF4FDB /* ATNCategoryCell.xib */; };
+		2BF2D4091F1A75AB00286966 /* ATNLoginAndRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF2D4071F1A75AB00286966 /* ATNLoginAndRegisterController.m */; };
+		2BF2D40A1F1A75AB00286966 /* ATNLoginAndRegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF2D4081F1A75AB00286966 /* ATNLoginAndRegisterController.xib */; };
 		2BF6DEAD1F04ED8900458895 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF6DEAC1F04ED8900458895 /* main.m */; };
 		2BF6DEB81F04ED8900458895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6DEB71F04ED8900458895 /* Assets.xcassets */; };
 		2BF6DEBB1F04ED8900458895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6DEB91F04ED8900458895 /* LaunchScreen.storyboard */; };
@@ -74,6 +80,13 @@
 		2B8072531F07393600B3F96D /* ATNNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNNavigationController.m; sourceTree = "<group>"; };
 		2B8072551F0741A000B3F96D /* ATNTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNTestViewController.h; sourceTree = "<group>"; };
 		2B8072561F0741A000B3F96D /* ATNTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNTestViewController.m; sourceTree = "<group>"; };
+		2B9E72331F1B374F00C27EEF /* ATNVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNVerticalButton.h; sourceTree = "<group>"; };
+		2B9E72341F1B374F00C27EEF /* ATNVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNVerticalButton.m; sourceTree = "<group>"; };
+		2B9E72361F1BB13B00C27EEF /* ATNTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNTextField.h; sourceTree = "<group>"; };
+		2B9E72371F1BB13B00C27EEF /* ATNTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNTextField.m; sourceTree = "<group>"; };
+		2B9E72391F1BBD3200C27EEF /* ATNPublishGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNPublishGuide.h; sourceTree = "<group>"; };
+		2B9E723A1F1BBD3200C27EEF /* ATNPublishGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNPublishGuide.m; sourceTree = "<group>"; };
+		2B9E723C1F1BBD4D00C27EEF /* ATNPublishGuide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATNPublishGuide.xib; sourceTree = "<group>"; };
 		2BE2F7261F0780CF00DF4FDB /* ATNFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATNFriendTrendsViewController.xib; sourceTree = "<group>"; };
 		2BE2F7281F07852200DF4FDB /* ATNRecommendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNRecommendController.h; sourceTree = "<group>"; };
 		2BE2F7291F07852200DF4FDB /* ATNRecommendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNRecommendController.m; sourceTree = "<group>"; };
@@ -83,6 +96,9 @@
 		2BE2F7D31F07D2D500DF4FDB /* ATNCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNCategoryCell.h; sourceTree = "<group>"; };
 		2BE2F7D41F07D2D500DF4FDB /* ATNCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNCategoryCell.m; sourceTree = "<group>"; };
 		2BE2F7D51F07D2D500DF4FDB /* ATNCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATNCategoryCell.xib; sourceTree = "<group>"; };
+		2BF2D4061F1A75AB00286966 /* ATNLoginAndRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNLoginAndRegisterController.h; sourceTree = "<group>"; };
+		2BF2D4071F1A75AB00286966 /* ATNLoginAndRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNLoginAndRegisterController.m; sourceTree = "<group>"; };
+		2BF2D4081F1A75AB00286966 /* ATNLoginAndRegisterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATNLoginAndRegisterController.xib; sourceTree = "<group>"; };
 		2BF6DEA81F04ED8900458895 /* ATNBSBDJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATNBSBDJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF6DEAC1F04ED8900458895 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2BF6DEB71F04ED8900458895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -290,6 +306,9 @@
 				2BE2F7281F07852200DF4FDB /* ATNRecommendController.h */,
 				2BE2F7291F07852200DF4FDB /* ATNRecommendController.m */,
 				2BE2F72A1F07852200DF4FDB /* ATNRecommendController.xib */,
+				2BF2D4061F1A75AB00286966 /* ATNLoginAndRegisterController.h */,
+				2BF2D4071F1A75AB00286966 /* ATNLoginAndRegisterController.m */,
+				2BF2D4081F1A75AB00286966 /* ATNLoginAndRegisterController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -314,6 +333,10 @@
 				2B6DE0BE1F08E2B700EB9E9D /* ATNRecommendUserCell.h */,
 				2B6DE0BF1F08E2B700EB9E9D /* ATNRecommendUserCell.m */,
 				2B6DE0C01F08E2B700EB9E9D /* ATNRecommendUserCell.xib */,
+				2B9E72331F1B374F00C27EEF /* ATNVerticalButton.h */,
+				2B9E72341F1B374F00C27EEF /* ATNVerticalButton.m */,
+				2B9E72361F1BB13B00C27EEF /* ATNTextField.h */,
+				2B9E72371F1BB13B00C27EEF /* ATNTextField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -433,6 +456,9 @@
 			children = (
 				2BFFFA2A1F06807F001D95E2 /* ATNTabBar.h */,
 				2BFFFA2B1F06807F001D95E2 /* ATNTabBar.m */,
+				2B9E72391F1BBD3200C27EEF /* ATNPublishGuide.h */,
+				2B9E723A1F1BBD3200C27EEF /* ATNPublishGuide.m */,
+				2B9E723C1F1BBD4D00C27EEF /* ATNPublishGuide.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -567,12 +593,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B9E723D1F1BBD4D00C27EEF /* ATNPublishGuide.xib in Resources */,
 				2B06874B1F0D3AD600EC19B9 /* ATNRecommendTagsCell.xib in Resources */,
 				2BE2F72C1F07852200DF4FDB /* ATNRecommendController.xib in Resources */,
 				2B6DE0C21F08E2B700EB9E9D /* ATNRecommendUserCell.xib in Resources */,
 				2BF6DEBB1F04ED8900458895 /* LaunchScreen.storyboard in Resources */,
 				2BF6DEB81F04ED8900458895 /* Assets.xcassets in Resources */,
 				2BE2F7D71F07D2D500DF4FDB /* ATNCategoryCell.xib in Resources */,
+				2BF2D40A1F1A75AB00286966 /* ATNLoginAndRegisterController.xib in Resources */,
 				2BE2F7271F0780CF00DF4FDB /* ATNFriendTrendsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -650,6 +678,7 @@
 				2B6DE0C11F08E2B700EB9E9D /* ATNRecommendUserCell.m in Sources */,
 				2BFFFA181F067F8B001D95E2 /* ATNEssenceViewController.m in Sources */,
 				2B6DE0C51F08E72F00EB9E9D /* ATNRecommendUser.m in Sources */,
+				2BF2D4091F1A75AB00286966 /* ATNLoginAndRegisterController.m in Sources */,
 				2BE2F72B1F07852200DF4FDB /* ATNRecommendController.m in Sources */,
 				2B0687461F0D3AAC00EC19B9 /* ATNRecommendTag.m in Sources */,
 				2BFFFA341F06910B001D95E2 /* UIBarButtonItem+ATNExtension.m in Sources */,
@@ -658,8 +687,11 @@
 				2BFFFA1B1F067F8B001D95E2 /* ATNMeViewController.m in Sources */,
 				2BFFFA2D1F06807F001D95E2 /* UIView+ATNExtension.m in Sources */,
 				2B0687431F0D3A7F00EC19B9 /* ATNTagsViewController.m in Sources */,
+				2B9E723B1F1BBD3200C27EEF /* ATNPublishGuide.m in Sources */,
+				2B9E72381F1BB13B00C27EEF /* ATNTextField.m in Sources */,
 				2BFFFA191F067F8B001D95E2 /* ATNFriendTrendsViewController.m in Sources */,
 				2BFFFA2E1F06807F001D95E2 /* ATNTabBar.m in Sources */,
+				2B9E72351F1B374F00C27EEF /* ATNVerticalButton.m in Sources */,
 				2B06874A1F0D3AD600EC19B9 /* ATNRecommendTagsCell.m in Sources */,
 				2BF6DEAD1F04ED8900458895 /* main.m in Sources */,
 				2B8072571F0741A000B3F96D /* ATNTestViewController.m in Sources */,

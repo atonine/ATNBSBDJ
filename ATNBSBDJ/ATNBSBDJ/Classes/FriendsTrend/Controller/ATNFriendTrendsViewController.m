@@ -8,7 +8,7 @@
 
 #import "ATNFriendTrendsViewController.h"
 #import "ATNRecommendController.h"
-
+#import "ATNLoginAndRegisterController.h"
 
 
 @interface ATNFriendTrendsViewController ()
@@ -33,6 +33,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)loginOrRegister {
+    ATNLoginAndRegisterController*rv = [[ATNLoginAndRegisterController alloc]init];
+    [self presentViewController:rv animated:YES completion:nil];
 }
 
 /*
